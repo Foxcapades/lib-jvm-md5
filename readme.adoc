@@ -3,7 +3,7 @@
 :lib-version: 1.0.0
 
 image:https://img.shields.io/github/license/foxcapades/lib-jvm-md5[GitHub]
-image:[]
+image:https://img.shields.io/badge/docs-dokka-green[link="https://foxcapades.github.io/lib-jvm-md5/"]
 
 Convenience wrapper around using the JDK `MessageDigest` type to generate MD5
 checksums.
