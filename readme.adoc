@@ -4,6 +4,7 @@
 
 image:https://img.shields.io/github/license/foxcapades/lib-jvm-md5[GitHub]
 image:https://img.shields.io/badge/docs-dokka-green[link="https://foxcapades.github.io/lib-jvm-md5/"]
+image:https://img.shields.io/maven-central/v/io.foxcapades.lib/md5[Maven Central, link="https://search.maven.org/artifact/io.foxcapades.lib/md5"]
 
 Convenience wrapper around using the JDK `MessageDigest` type to generate MD5
 checksums.
