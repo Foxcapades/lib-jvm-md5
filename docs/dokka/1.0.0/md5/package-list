@@ -1,0 +1,20 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:io.foxcapades.lib.md5////PointingToDeclaration/md5/io.foxcapades.lib.md5/index.html
+$dokka.location:io.foxcapades.lib.md5/MD5///PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5/index.html
+$dokka.location:io.foxcapades.lib.md5/MD5/hash/#java.io.File/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5/hash.html
+$dokka.location:io.foxcapades.lib.md5/MD5/hash/#java.io.InputStream#kotlin.Int/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5/hash.html
+$dokka.location:io.foxcapades.lib.md5/MD5/hash/#java.io.Reader#kotlin.Int/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5/hash.html
+$dokka.location:io.foxcapades.lib.md5/MD5/hash/#kotlin.String/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5/hash.html
+$dokka.location:io.foxcapades.lib.md5/MD5Hash///PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash/index.html
+$dokka.location:io.foxcapades.lib.md5/MD5Hash/MD5Hash/#kotlin.ByteArray/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash/-m-d5-hash.html
+$dokka.location:io.foxcapades.lib.md5/MD5Hash/bytes/#/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash/bytes.html
+$dokka.location:io.foxcapades.lib.md5/MD5Hash/equals/#kotlin.Any?/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash/equals.html
+$dokka.location:io.foxcapades.lib.md5/MD5Hash/hashCode/#/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash/hash-code.html
+$dokka.location:io.foxcapades.lib.md5/MD5Hash/toHexString/#kotlin.Boolean/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash/to-hex-string.html
+$dokka.location:io.foxcapades.lib.md5/MD5Hash/toString/#/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash/to-string.html
+$dokka.location:io.foxcapades.lib.md5/MD5Hash/unsafeBytes/#/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash/unsafe-bytes.html
+$dokka.location:io.foxcapades.lib.md5/MD5HashException///PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash-exception/index.html
+$dokka.location:io.foxcapades.lib.md5/MD5HashException/MD5HashException/#kotlin.Throwable/PointingToDeclaration/md5/io.foxcapades.lib.md5/-m-d5-hash-exception/-m-d5-hash-exception.html
+io.foxcapades.lib.md5
+

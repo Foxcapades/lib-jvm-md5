@@ -2,6 +2,9 @@
 :source-highlighter: pygments
 :lib-version: 1.0.0
 
+image:https://img.shields.io/github/license/foxcapades/lib-jvm-md5[GitHub]
+image:[]
+
 Convenience wrapper around using the JDK `MessageDigest` type to generate MD5
 checksums.
 
