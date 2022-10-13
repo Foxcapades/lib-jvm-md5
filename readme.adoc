@@ -1,0 +1,101 @@
+= MD5
+:source-highlighter: pygments
+:lib-version: 1.0.0
+
+Convenience wrapper around using the JDK `MessageDigest` type to generate MD5
+checksums.
+
+
+== Import
+
+.build.gradle.kts
+[source, kotlin, subs="verbatim,attributes"]
+----
+  implementation("io.foxcapades.lib:md5:{lib-version}")
+----
+
+.build.gradle
+[source, groovy, subs="verbatim,attributes"]
+----
+  implementation "io.foxcapades.lib:md5:{lib-version}"
+----
+
+.pom.xml
+[source, xml, subs="verbatim,attributes"]
+----
+    <dependency>
+      <groupId>io.foxcapades.lib</groupId>
+      <artifactId>md5</artifactId>
+      <version>{lib-version}</version>
+    </dependency>
+----
+
+
+== Examples
+
+.Kotlin
+[source, kotlin]
+----
+import io.foxcapades.lib.md5.MD5
+import java.io.File
+
+fun main() {
+  // Hashing the contents of a file
+  val fileHash = MD5.hash(File("readme.adoc"))
+
+  // Hashing a plain string
+  val stringHash = MD5.hash("some text")
+
+  // Hashing a reader stream
+  val readerHash = MD5.hash("some text".reader())
+
+  // Hashing an InputStream
+  val streamHash = MD5.hash("some text".byteInputStream())
+
+  // Printing a hash as a lowercase hex string
+  println(fileHash.toHexString(true))
+
+  // Printing a hash as an uppercase hex string
+  println(stringHash.toHexString())
+
+  // Getting the raw bytes of a hash
+  readerHash.bytes
+}
+----
+
+.Java
+[source, java]
+----
+import io.foxcapades.lib.md5.MD5;
+import io.foxcapades.lib.md5.MD5Hash;
+
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.StringReader;
+
+public class Example {
+
+  public static void main(String[] args) {
+    // Hashing the contents of a file
+    MD5Hash fileHash = MD5.hash(new File("readme.adoc"));
+
+    // Hashing a plain string
+    MD5Hash stringHash = MD5.hash("some text");
+
+    // Hashing a reader stream
+    MD5Hash readerHash = MD5.hash(new StringReader("some text"));
+
+    // Hashing an InputStream
+    MD5Hash streamHash = MD5.hash(new ByteArrayInputStream("some text".getBytes()));
+
+    // Printing a hash as a lowercase hex string
+    System.out.println(fileHash.toHexString(true));
+
+    // Printing a hash as an uppercase hex string
+    System.out.println(stringHash.toHexString());
+
+    // Getting the raw bytes of a hash
+    readerHash.getBytes();
+  }
+}
+----
