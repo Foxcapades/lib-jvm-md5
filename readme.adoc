@@ -1,6 +1,6 @@
 = MD5
 :source-highlighter: pygments
-:lib-version: 1.0.0
+:lib-version: 1.0.1
 
 image:https://img.shields.io/github/license/foxcapades/lib-jvm-md5[GitHub]
 image:https://img.shields.io/badge/docs-dokka-green[link="https://foxcapades.github.io/lib-jvm-md5/"]
