@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "io.foxcapades.lib"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
   mavenCentral()
@@ -55,8 +55,8 @@ publishing {
     create<MavenPublication>("gpr") {
       from(components["java"])
       pom {
-        name.set("Read-Only ResultSet")
-        description.set("Provides a thin wrapper around ResultSet instances that blocks mutative methods.")
+        name.set("MD5")
+        description.set("Convenient MD5 hashing.")
         url.set("https://github.com/foxcapades/lib-jvm-md5")
 
         licenses {
